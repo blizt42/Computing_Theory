@@ -1,0 +1,19 @@
+3.3.5 Draw entity-relationship (ER) diagrams to show the relationship between tables.
+
+~ tables can be related in 3 way
+	> One to one
+		-Eg: one person to one dog
+			
+		-----
+		
+	> one to many
+		-Eg: one ward to many patient
+		    /
+		-----
+		    \
+
+	> many to many 
+		-Eg: Many films to many actors
+		\   /
+		-----
+		/   \

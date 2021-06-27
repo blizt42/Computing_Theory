@@ -1,0 +1,14 @@
+1.2.4 Use examples to explain search algorithms.
+~ Order array
+	- If the element is found, rest of array does not need to be seacrch
+	- if array element > search element, no match found, rest of array does not need to be search
+
+~linear search
+	- Read search key and traverse the array from the start element
+	- traverses the array until search key matches element
+	- if last element not match, returns <element not found> and closes search
+
+~binary search
+	- cuts array in half for each pass
+	- compares data at the half point ( search key == midpoint ??)
+	- Can be in the form of resursion or dowhile algorithm

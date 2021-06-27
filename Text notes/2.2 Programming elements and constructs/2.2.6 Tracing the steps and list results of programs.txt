@@ -1,0 +1,11 @@
+2.2.6 Trace the steps and list the results of recursive and non-recursive programs. 
+
+~ Dry run ( Desk Checking )
+	- manually work through algo step by step
+	- Record varaibles in a trace table
+ 	- Basically be a bot and execute the code from top down
+	- Locate errors
+
+~ Trace table
+	- Column for each variable that records their changing values
+	- Row for each variable to show their changing values starting from the top

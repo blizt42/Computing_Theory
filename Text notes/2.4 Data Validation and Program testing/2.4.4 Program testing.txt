@@ -1,0 +1,30 @@
+2.4.4 Design appropriate test cases using normal, abnormal and extreme data for testing and
+debugging programs.
+
+~ Desk Checking ( Dry run )
+	- Involves tracing of through the logic of the alogrithm with a choosen set of data
+	Step 1: choose simple test cases that are valid
+	Step 2: Establish the expected value for each test case
+		Eg: height of plant = 10, program simulates height of plant after 10 days where its height increases by 1 each day
+		    Expected height of plant = 10 + 10x1 = 20
+	Step 3: Make a table of relevant variable name within algorithm (Trace table)
+	Step 4: Walk through the code with the first test case
+	Step 5: Repeat walk through with other test cases
+	Step 5: compare the expected results with the test results
+
+	- Desk checking will detect early errors and clear most errorr
+	- Not 100% error proof
+
+~ White box testing
+	- Internals of program is known to the tester
+	- Eg of testers: Software-developers
+	- programming implementation and knowledge is not required
+	- It is a structural / interior test
+	- Ignores any reference to normal/boundary/Extreme values
+
+~ Black box testing
+	- Internals of program is NOT known to the tester
+	- Eg of testers: independent software testers (beta testers)
+	- programming implementation and knowledge is not required
+	- It is a functional / external test
+	- Is concerned about the validation of output

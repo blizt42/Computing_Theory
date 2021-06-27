@@ -1,0 +1,16 @@
+2.5.2 Understand encapsulation and how classes support information hiding and implementation
+independence. 
+
+~ information hiding
+	- As a general rule, instance variables are declared private and most methods public
+	- This means other class can use methods belonging to another class but are not allowed to access and modify its attributes
+	- Attributes must only be modified through its accessor or modifier methods
+
+~ Encapsulation
+	- Combining attributes and methods into a single object type
+	- Even if 2 objects are instantiated from the same class, the attributes and behaviours of one object cannot affect the way in which another object functions
+	- Eg: 2 bank accounts, A and B
+	      A can access and modify its cash balance, but cannot access and modifies B's cash balance
+	- a mini sandbox
+
+	

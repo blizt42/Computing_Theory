@@ -1,0 +1,20 @@
+3.3.13 Explain how data in Singapore is protected under the Personal Data Protection Act to govern the
+collection, use and disclosure of personal data. 
+
+~ Personal Data Protection Act
+	> A data protection law the governs
+		- collection
+		- use
+		- disclosure
+		- care
+	  of personal data
+
+	> Takes into account
+		- consent: Must obtain individual's knowledge and consent to CUD
+		- Notify: Must inform individual the purpose of CUD
+		- Appropriateness: CUD may only be used when the purpose is appropriate under the given circumstances
+		- Accountability: Must Provide PD protection polices upon request. ( Provide Business info, have reps to ans any queries from individuals)
+
+~ Aim of PDPA
+	- Address concerns and maintain individual's trust in organisation that manages the data
+	- # to Strengthen and entrench Singapore's competitiveness and position as a trusted, world class hub for business

@@ -1,0 +1,74 @@
+Algorithms
+- A well-ordered collection of unambigous and effectively compatible operations.
+- When executed, produces a result and halts in a finite amount of time.
+- A sequence of steps that can be carried out to perform a task
+
+
+1.1.1 Use appropriate techniques or tools such as pseudo-code and flowchart to show program flow. 
+Program flowchart
+- a graphical representation of the operations involved.
+- Used to plan or solve a problem, with or without a pc
+
+
+1.1.2 Use standard flowchart symbols. 
+>>PASS
+
+
+1.1.3 Use a combination of various control structures. 
+1.1.4 Use decision tables to explore the actions for combinations of different input conditions. Note: up to three conditions 
+Control Structures
+> comments ( // )
+> variable declarations
+	DECLARE <identifier> : <Data type>
+	DECLARE age : INTEGER
+	- Storage box to store data
+
+> Identifiers aka Variables
+	- case sensitive
+	- is a good practice to use meaningful variables (Coding standards 2.1)
+
+> Constants
+	CONSTANT <identifier> = <Value>
+
+> Assignments ( <-- )
+	<identifier> <-- <value>
+	counter <-- 0
+
+> Input
+	-READ (Used when receiving input from a file)
+	-GET (Used when receiving input from a keyboard)
+
+> Output
+	-Print (Output sent to printer)
+	-Write (Output written to a file)
+	-Put, Output, Display (Output to screen)
+
+> If-Else
+	-IF condition ( //True ) Then
+		statement1
+	 ELSE
+		statement2
+	 ENDIF
+
+> Repeat
+	-DOWHILE condition ( //True )
+		statement
+	 ENDDO
+
+	-WHILE condition ( //True )
+		statement
+	 ENDWHILE
+
+	-REPEAT
+		statement
+	 UNTIL condition ( //True )
+
+	-FOR <identifier> <-- <value> TO <value> STEP <value>
+		statement
+	 ENDFOR
+
+> Case
+	-CASE OF <Identifier>
+		<value1> : statement1
+		<value2> : statement2
+	 ENDCASE

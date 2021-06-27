@@ -1,0 +1,5 @@
+4.1.1 Explain the concepts of LAN, WAN, intranet and the structure of the internet. 
+
+~ internet
+	- a network of networks set up to allow communication between computers globally
+	- Uses backbone cables connected by trans-continental leased lines fed across the sea bed

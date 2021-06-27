@@ -1,0 +1,24 @@
+3.2.1 Give examples of where or how Unicode is used. 
+
+~ Unicode
+	- 8-32 bits ( up to 4 bytes ) per character
+	- represents characters from all around the world ( chinese, tamil )
+
+~ Advantages of Unicode
+	- Used to handle documents with mulitple languages
+	- Localisation of software
+	  Standard software can be adapted and used by different cultures by modifying the layout and features of the interface
+	- Represents all the characters used by the world's language ( up to 4 bytes , 32 bits)
+
+
+~ ASCII
+	- 7 bit set of codes that allows 128 different characters
+	- Since computers store each char as a byte (8 bits) ASCII is also stored in 8 bit.
+
+~ Advantages of ASCII
+	- Occupies less space than Unicode
+	- Simple to handle unlike Unicode
+
+~ Extended ASCII
+	- ASCII that represents 256 chars
+	- range ( 0 - 255 )

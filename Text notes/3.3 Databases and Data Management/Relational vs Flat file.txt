@@ -1,0 +1,56 @@
+~ Difference between Flast file and Relational DB
+	- Flat-file has no way to link info between separate files, unless a program is written
+	  Relational allows linking through tables and relations
+
+	- Flat-file requires a program to be rewritten if there are any changes to the fields
+	  Linking in Relational is easy
+	
+	- Flat file is program oriented
+	  Relational is data oriented
+
+~ Advantages of RDB approach
+	> Data independence
+		- changes to structure of DB does not affect programs that access the data
+		- Contrast to Flat file: A minor change may mean considerable reprogramming effort (Data Dependency)
+
+	> Consistency of data
+		- Each data is only held once, meaning there are no danger in an item being updated on one system and not another
+	
+	> Control over redundancy
+		- redundancy is minimised
+		- Contrast to Flat file: Waste space as of the dame data is held in separate files and takes more time to update (Data redundancy)
+
+	> Greater security and integrity of Data
+		- RDB only allows authorised users to access data
+		- Contrast to Flat file: Data stored in multiple files, making it difficult control who has access and change data on the files
+		  (Data privacy and integrity)
+
+	> Increased productivity and more info available to user
+		- RDB provides an easy to use query language to enable users to get instant answer to their queries
+		- No need to write a special program to access data which requires time
+
+~ Disdvantage of RDB approach
+	> Larger size
+		- Requires more space
+		- Requires a stronger PC
+
+	> Greater complexity
+		- Must be Carefully designed
+		- Requires considerable expertise
+
+	> Possible inefficiency or poor performance
+		- Might be less efficient than a tailor made program
+
+	> Greater impact of system failure
+		- if system fails, everyone using it will be affected
+
+	> More complex recovery procedure
+
+~ Disadvantage of Flat file approach
+	> Data Dependency
+
+	> Data Redundancy
+
+	> Data Privacy
+
+	> Data Integrity

@@ -1,0 +1,38 @@
+2.4.1 Explain the difference between data validation and data verification.
+
+~ Validation
+	- The automatic checking of data entered into a computer system
+	- Checks if the data is sensible
+	- Captured data may not mean its the right data required (Cannot prove is data is right)
+	- It helps identify the obviously wrong inputs
+
+~ Verification
+	- Checks if data entered has no transcription error
+	- Checks if data entered is what you want to be entered
+	- Why? Data entered may not be the same as the original data
+	
+	> transcription error
+		- Made by human operators or OCR (Optical character recognition) programs
+		- Eg: Fingers placed wrongly on keyboard
+		- Electronic transcription error ( Printing on a crushed paper, font error )
+		- Eg: You want to type in the word 'text', but you end up typing 'sext'.
+
+	> transposition error
+		- Characters in a string have been swapped (due to fast typing)
+		- Eg: 'bye' --> 'bey'
+	
+	> Solving these errors
+		- Watch the screen properly
+		- Proof read input data
+		- Use an input mask or validation rules (Eg: Only string characters allowed)
+		- Double entry ( Data is Entered twice )
+		- batch tools
+		- check digits
+		- control tools
+		- hash totals
+
+~ Differences between Validation and Verification
+	- Data verification prevents errors when data is copied from medium to another.
+	  It checks to see if there is any error when a data is transcribed and alerts the operator when they is, so they can correct it.
+	- Data validation is the automactic checking of a data entered to see if it is sensible.
+	  It has multiple types of checks to validate a data

@@ -1,0 +1,22 @@
+2.5.1 Define and understand classes and objects.
+
+~ Objects
+	- An object is an instance of a class
+	- Each objects will have its own attributes
+	- Eg: Object- car
+	      attributes of car: brand, engine size, colour
+
+	- An object has a state, member variables
+	- Eg: object- bank account
+	      cash = 420, last deposit = first july 2069
+
+	- An object has behaviours (methods). They are actions that can be performed by the object
+	- Eg: object-cow
+	      behaviours: run, walk, eat, sleep
+
+~ Class
+	- A class is a blueprint/ template for an object
+	- it defines the attributes and behaviours (methods) of objects in the class
+	- It has attributes which relate to it
+	- It has methods which allows the class to do something
+	

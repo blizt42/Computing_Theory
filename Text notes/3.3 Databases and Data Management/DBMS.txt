@@ -1,0 +1,38 @@
+~ DBMS
+	- A software that control all aspects of db management
+	- can find, add, change exisiting data
+	- enable non-specialist users to easily enter data into system or to carry out standard queries
+	- can use its interface or communicate using other programs
+
+~ functions of DBMS
+	- Store, retrieve and update data
+	- Backup and recover data
+	- secure data
+	- Create and maintain data dictionaries
+
+~ Database Administration/strator
+	- designer of DB
+	- monitor performance of DB
+	- keep users inform if there are any changes to infrastructure
+	- maintain data dictionary
+	- implement privileges for users
+	- provide training to users to access DB
+
+~ Data dictionary
+	- A tool for DB adminstration
+	- contains description, info about the structure of the data held in the DB
+
+~ Indexes
+	- Speed up access to data,
+	- but will slow down record updating ( When index field is change, index entry needs to be changed )
+	- foreign keys are indexed, fields frequently indexed
+	- Makes sorting faster
+
+~ Query
+	- Allows user to combine info from two or more related table into one table
+	- Used as the basis of a report
+
+~ reports
+	- Can be generated as the result of a query
+	- The point of a DB is to generate queries, reports with ease
+

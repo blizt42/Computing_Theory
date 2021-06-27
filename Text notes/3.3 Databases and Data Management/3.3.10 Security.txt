@@ -1,0 +1,14 @@
+3.3.10 Describe methods to protect data. 
+
+~ Security issues
+	> physical sercurity
+		- Regular backups ( Store in fire proof safe or other different buildings )
+		- Give access to main computer to only authorised personnel
+
+	> Prevention of unauthorised access
+		- Transaction logging ( record info about each update in a different file )
+		- Checkpoints ( Restore point, when disk fails, can restore data back to the lastest checkpoint )
+		- Password to restrict entry
+		- Encrypting data
+		- use decryption software
+		- Assign privileges/ levels to uses so that they can only access data neccessary for their jobs

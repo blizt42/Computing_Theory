@@ -1,0 +1,22 @@
+3.3.3 Explain with examples, the concept of data redundancy and data dependency.
+
+~ Data redundancy
+	- Is a data organisation issue that allows unneccessary duplication of data within the database
+	- Is a disadvantage in a flat-file database
+
+~ Data inconsistency
+	- Exists when different and conflicting version of the same data appear in different places
+	- Is a disadvantage of a flat-file database
+	- If data is stored more than once, it may have 2 or more versions of different data.
+	- Is a result of data redundancy and partial update
+
+~ Update anomaly
+	- Data Inconsistency
+
+~ Insertion anomaly
+	- The inability to add data to the DB due to the absence of another data
+ 	- Eg: record contains (title, booknumber), booknumber cannot be a null value,
+	      when only the title is being insert, it cannot be added due to having missing the booknumber
+
+~ Deletion anomaly
+	- Occurs when a record is deleted that may contain attributes the should not be deleted

@@ -1,0 +1,6 @@
+Why use module libraries?
+- Time saving ( use of private functions )
+- Tested programs ( work reliably)
+- Makes a program contain less code ( Making it easier to maintain )
+- consistency between programs ( Understandable throughout multiple programs )
+- Written by experts ( Efficent codes )

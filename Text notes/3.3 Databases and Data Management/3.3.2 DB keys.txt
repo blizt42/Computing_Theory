@@ -1,0 +1,31 @@
+3.3.2 Explain the purpose of and use primary, secondary, composite and foreign keys in tables. 
+
+~ Primary key
+	- #A primary key UNIQUELY IDENTIFIES each RECORD in a table and should not change over time.
+
+	- Each record needs to have a unique identifier, hence a field is chosen to be unique (primary key)
+	
+	- A primary key is an attribute in a relation DB that acts as an unique identifier for each record
+	- This is the means by which data from different tables are related/ linked
+	
+	- If primary key contains more than one attribute, it is considered to be a composite key
+
+~ Foreign key
+	- A field in a relational table that matches with the primary key of another table
+
+	- A foreign key is an attribute in a relational table that matches the primary key column of another table in the same DB
+	  Therefore, a foreign key should not contain data that do not appear in table it refers to
+
+~ Difference between primary key and foreign key
+	- Primary key does not allow duplicate and null values
+	  Foreign keys allow
+
+~ Composite key
+	- #A composite key is a COMBINATION OF 2 OR MORE FIELDS in a table that can be used to unique identifier each reacord in a table.
+	   Uniqueness is only guaranteed when the fields are combined.
+	   When taken individually, the fields do not guarantee uniqueness	
+
+~ secondary key
+	- Any field that is not a primary key/foreign
+	- Usually indexed fields
+	

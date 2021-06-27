@@ -1,0 +1,7 @@
+~ Dynamic
+	- Linked list ( size can be modified during the program running )
+	- Reusable memory
+	- More efficient than static
+	- Avoids causing memory overflow
+
+~ Uses heap area

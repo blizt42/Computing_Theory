@@ -1,0 +1,61 @@
+2.4.2 Understand data validation techniques such as:
+	– range check
+	– format check
+	– length check
+	– presence check
+	– check digit. 
+
+~ Presence Check
+	- Field cannot be left blank
+	- Ensures all fields are filled up
+	- Eg: Surname field
+
+~ Existence Check <>
+	- Checks if a certain value is present
+	- NOT THE SAME as Presence check, 
+	Eg: number '2' is required
+	    input value = 4
+	    Presence check = Pass
+	    Existence check  = Fail
+
+~ Type Check <>
+	- Checks data type
+	- Ensures Data type of input is correct
+	- Eg: Field must only have integers
+
+~ Length check
+	- Ensure data has the correct number of characters
+	- Eg: Phone number has 8 characters
+
+~ Range check
+	- Ensure data value is within predetermined range
+	- Eg: Month range (1-12), input < 1 and input > 12 is wrong
+
+~ Format Check
+	- Ensure Individual char in data is valid
+	- Data must follow a pre-determined pattern
+	- Eg: NRIC TXXXXXXXQ, X is integer, Pattern is first and last are letters, middle char are integers
+
+~ Integrity check <>
+	- Compare data entered with other data to confirm it
+	- Eg: Birth date: today's year (2021) , input birth year (2069) which is incorrect.
+
+~ Look Up check <>
+	- Ensure data matches one of a limited number of valid entries
+	- Eg: Product Code: Check with stock file to see if the code exist
+	- Different from integrity check
+
+~ Check Digit
+	- Allows self-checking of a number
+	- Used only in a large number to prevent mistype
+	- Last 1 or 2 digits used as a check digit
+	- The rest of the digits are computed to get a certain value to compare with the check digit
+	
+~ How does check digit work
+	- number (XXXXYY) 
+	- X are the integers to be calculated using a function to get a specific value (A)
+	- YY is the check digit used to compare with the value calculated from XXXX, A
+
+
+
+	

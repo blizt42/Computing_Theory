@@ -1,0 +1,16 @@
+3.3.11 Explain the difference between backup and archive.
+
+~ Backup
+	- A duplicate of an existing file which is still in use
+	- It is created and kept as a security measure ( when main file fails, the backup can help restore the file )
+
+~ Archive
+	- The storage of information for a long period of time
+	- Compressed to take up less space so that it can be stored in a cheaper medium
+	- free up space in the main computer
+	- Harder to access than the original information
+	- Contains data no longer in use
+
+~ Backup and archive
+	- Both files are stored away from the main computer in a secure location
+	- Archive serves to store data for historical purposes while Backup serves to replace the original data when in failure

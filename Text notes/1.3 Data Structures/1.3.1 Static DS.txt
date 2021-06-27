@@ -1,0 +1,9 @@
+~ Static
+	- Arrays with fixed size ( Size cannot be modified while the program is running )
+	- Suitable for storing items such as ( Months, Monthly sales, avg monthly temperature )
+~ Disadvantage of static
+	- Array size must be decided in advance
+	- Full array means no more item can be added
+	- Less efficient than dynamic DS
+
+~ Static uses the stack area

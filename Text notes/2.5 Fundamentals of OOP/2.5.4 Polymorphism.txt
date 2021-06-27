@@ -1,0 +1,10 @@
+2.5.4 Understand polymorphism and how it enables code generalisation.
+Exclude: method overloading and multiple inheritance
+
+~ Polymorphism
+	- Refer's to a programming language's ability to process objects differently depending on the class
+	- Allows for different objects to respond to the same message in different ways
+	- Each response is specific to the type of object
+	- A feature of inheritance
+	
+	- Defining a method with the same name and formal argument types as a method inherited from a superclass is called OVERIRIDING

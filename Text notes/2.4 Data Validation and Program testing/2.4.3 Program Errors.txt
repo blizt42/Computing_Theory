@@ -1,0 +1,40 @@
+2.4.3 Identify, explain and correct syntax, logic and runtime errors.
+
+~ Syntax
+	- When a command does not follow expected syntax of the language
+	- Eg: missing punctuation
+	- Detected when complier or interpreter runs
+	- Strategies: use meaningful variable names
+
+~ logical
+	- Outputs an incorrect answer
+	- Eg: everyday a plant grows by 10 cm, (height = height - 10) which is wrong, should be (height = height + 10)
+	- Detected input a test data that has a predicted output value and compare with the actual output value
+	- Strategies: Dry run the program
+
+~ runtime
+	- An error which is difficult to foresee
+	- Detected when the program crashes
+	- Eg: EOF error, division by zero, stack overflow, out of range array
+	- Strategies: Dry run the algorithm before programing the code
+
+~ semantic
+	- Program runs, but does not run as expected
+	- Detected by looking at the output to see what the program is doing
+	- Eg: forgetting to divide a value, cm to m
+
+~ Linking
+	- module library not linked to program
+	- Eg: import <module> statement not add, cannot use its functions
+	- Detected when program crashes
+	- Strategies: test each part of the code to see if any part contains reference to other libraries
+
+~ Rounding
+	- Number is rounded off
+	- Eg: 69.4 --> 69.0
+	- Detected by comparing predicted output with actual output
+
+~Truncation
+	- number has been cut off.
+	-Eg: 96.714 --> 96
+

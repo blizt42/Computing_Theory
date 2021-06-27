@@ -1,0 +1,56 @@
+3.1.1 Represent data in binary and hexadecimal forms. 
+
+~ Binary
+	- Base 2
+	- Addition of binary
+	0 + 0 = 0
+	0 + 1 = 1
+	1 + 0 = 1
+	1 + 1 = 0
+	
+	- Eg: 1100 + 0110 = 10010
+
+~ Binary to Denary
+	- power the number 2 using each position value, multiple the position values and add them up
+	Position 3 2 1 0
+	binary   1 0 1 1 
+	(2^3 x 1) + (2^2 x 0) + (2^3 x 1) + (2^3 x 1) = 11 (base 10, denary)
+
+~ Denary to Binary
+	> Division by 2
+		- divide the Denary value by 2
+		- the remainder value for each division makes up the binary number
+		- Read from bottom to the top to obtain the whole binary number
+
+~ Hexadecimal
+	- Base 16
+	- 0-9, A-F
+
+~ Binary to hexadecimal
+	- split binary into group of 4
+	- refer to list ( Cheat sheet )
+
+Den    Binary     Hex
+0	0000	   0
+1	0001	   1
+2	0010	   2
+3	0011	   3
+4	0100	   4
+5	0101	   5
+6	0110	   6
+7	0111	   7
+8	1000	   8
+9	1001	   9
+10	1010	   A
+11	1011	   B
+12	1100	   C
+13	1101	   D
+14	1110	   E
+15	1111	   F
+
+From right to left, Binary alternates, each step multiply by 2
+
+~ Hexadecimal to denary
+	- Divide by 16
+	- remainder is the denary value for hex
+	- convert the value (Eg: 12 --> c)

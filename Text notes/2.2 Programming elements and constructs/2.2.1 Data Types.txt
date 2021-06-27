@@ -1,0 +1,22 @@
+2.2.1 
+Understand the different types: integer, real, char, string and Boolean and initialise arrays (1-
+dimensional and 2-dimensional). 
+
+~ integer
+	- Eg: -37, 0, 23, 123213
+
+~ real/float
+	- Eg: -12.5 , 0.0, 1243.324
+	- 0.0 != 0 even though they are the same value
+
+~ Boolean
+	- Eg: True, False
+
+~ character
+	- a letter, number, or special character typically represented in ASCII
+	- Eg: 'a', 'B', '$'
+
+~String
+	- Eg 'hi', 'I want to cry', '@#$%'
+	- '6' can be counted as a character data type
+	

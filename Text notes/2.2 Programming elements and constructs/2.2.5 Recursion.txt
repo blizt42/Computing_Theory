@@ -1,0 +1,16 @@
+2.2.5 Understand the concept of recursion. 
+
+~ Recursion
+	- A recursive subprogram is one that includes, among the statements making the subprogram, a call to the same subprogram
+	- It will continuously call itself recursively, hence there is a need for a stopping condition
+	- This stopping condition acts as a decider between calling the subprogram again or finshing it
+
+~ Advantages
+	- Short and simple to write
+
+~ Disadvantages 
+	- Requires alot of memory
+	- Difficult to debug / follow
+	- Will crashed if the recursion continues too long
+	- Sometimes very slow due to repeatedly storing and retrieving address and value
+	- infinite loop if error ( may lead to crashing )

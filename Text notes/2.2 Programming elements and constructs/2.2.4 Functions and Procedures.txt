@@ -1,0 +1,26 @@
+2.2.4 Use functions and procedures to modularise problem into chunks of code.
+
+~ Difference between Functions and Procedures
+	-Functions will return a value while 
+	 procedures may or may not return a value or may return more than one value
+
+	-Functions are used for computations whereas
+	 Procedures are used for executing business logic
+
+	-Procedure is a bundle of codes, it does not have a return type while
+ 	 Functions have a return type
+
+	-Procedure accepts input or output parameters but
+ 	 Functions only accepts input parameters
+
+~ Procedure
+ 	-PROCEDURE <Name of procedure> <parameter1> : <datatype ; <parameter2> : <datatype>
+		statement
+	 ENDPROCEDURE
+
+	-CALL <Name of procedure>
+
+~ Function
+	-FUNCTION <Name of Function> Returns <Datatype>
+		statement
+	 ENDFUNCTION

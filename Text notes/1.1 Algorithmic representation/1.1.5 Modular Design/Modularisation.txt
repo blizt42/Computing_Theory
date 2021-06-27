@@ -1,0 +1,15 @@
+~ Modularisation
+	- A process of dividing a problem into separate tasks, each with a single purpose
+	- A simple solution algorithm.
+	- define the problem, write down the control structures required to reach a solution and devise a solution algorithm
+	- Uses a combination of sequence, selection, repetition control structures
+
+~ Top down design / functional decomposition
+	- The process in which a major task is first identified in a problem
+	- The task is then split into smaller subtask and so on until it can be solved easily
+
+~ Advantages of using Top down design (modular programming)
+	- Pay attention to important properties while ignoring the non essential details ( Can look at a specific module only )
+	- Faster programming and completion ( Multiple programmers can work on the problem, debugging etc )
+	- Reusable work for another purpose ( Type once for one program, but can be used in other programs )
+	- Different modules can be tested separately

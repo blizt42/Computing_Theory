@@ -1,0 +1,14 @@
+~ Global variable
+	- A longstanding variable
+	- Accessible throughout the program's lifetime ( main, subroutine )
+	- Storage of the variable exist until program is terminated
+
+~ Local variable
+	- A variable that is defined in a subroutine/function/procedure
+	- Can only be accessed and modified in the within the subroutine
+	- terminates when subroutine ends
+	- Memory allocation of variable occurs within the scope of the subroutine and is deallocated once subroutine ends
+
+
+	
+	

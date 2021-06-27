@@ -1,0 +1,38 @@
+3.3.4 Reduce data redundancy to third normal form (3NF). 
+
+~ Normalisation
+	- A technique of organising the tables in a database to reduce data redundancy and minimise inconsistent data
+	- There are at least 3 normal forms associated with normalisation ( first nf, second nf, third nf )
+
+~ Organisation
+	- No data redundancy and inconsistency
+	- Must be flexible so as to enter as many items you want
+	- allows for complex query from all tables
+
+~ 1st NF
+	- All columns must be Atomic
+	- No multi-valued columns
+	- No repeating attributes / no repeating group of attributes
+	- Eg: attribute-subject
+	      not 1NF : subject (math, science, pe) 
+	      1 NF :    subject (math)   <-- contains only one subject
+
+~ 2nd NF
+	- A table in 2NF must be from 1NF
+	- Remove any non-key attribute that are dependent on the primary key partially
+	- The creation of a link table to break of the many to many relationship into one-many and many-one
+	- No partial key dependencies
+	- Eg: 1NF has one table for both Student and subject
+	      2NF cuts the Student and subject table into 2 tables and links them via link table
+	- A link table consist of entirely foreign keys
+
+~ 3rd NF
+	- A table in 3NF contains no Non-key dependencies
+	- Remove transistivity within the table
+	- Eg: Students ( StudentID, Studentname, ClassID, ClassSize ) # prim key is STudentID
+	      ClassSize is obviously dependent on ClassID, but ClassID is not a prim key and is dependent on StudentID
+	      2 NF: Student table (StudentID <-- ClassID <-- ClassSize)       
+	      3 NF: Student table (StudentID <-- ClassID)
+		    Class   table (ClassID <-- ClassSize)
+	- All secondary keys must depend on the primary key
+

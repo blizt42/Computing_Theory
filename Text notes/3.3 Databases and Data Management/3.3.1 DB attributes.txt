@@ -1,0 +1,24 @@
+3.3.1 Determine the attributes of a database: table, record and field. 
+
+~ Relational Database
+	- It consist of a large collection of items linked between each other
+	- Structured in a way that it can be accessed by different application programs
+	- It provides a system for querying, creating, deleteing and modifying data
+	- Data-oriented
+
+~ tables ( Fundamental structure in DB )
+	- Contains information about an enitity
+	- Eg: Car, employee, customer, song, etc
+
+	- Each row contains information about a person/thing
+	- Eg: movie names like Mission impossible, minions, Star wars
+	
+	- Each column contains information relating to a particular attribute / field
+	- Eg: title column has the names of the movie, year is the year of release of the movie, etc
+
+~ Flat file DB
+	- DB is held as a table and stored as a single text file
+	- Structured with a row for one record, a column for one field
+	- Considered to be two-dimensional (hence, 'flat file')
+	- Program-oriented
+	- Can write application programs using a programming language to access it

@@ -1,0 +1,18 @@
+2.1.1 Use indentation and white space.
+~ Indentation
+	- Show blocks of code making it easier to read through the code to find the problem
+
+
+2.1.2 Use naming conventions.
+~ Meaningful variables/identifiers
+	- Allows other people to understand what they represent (eg: length is a length of something)
+	- (e.g. meaningful identifier names)
+
+2.1.3 Write comments 
+~ commenting
+	- Explain what the code is doing (easier to understand)
+	- (name of programmer, date written, program description and version bookkeeping/control). 
+
+
+~ Standard layouts for all programs
+	- Allows other people to recognise what is being done easily

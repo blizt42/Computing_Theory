@@ -1,0 +1,33 @@
+1.2.2 Use examples to explain sort algorithms.
+~ Sorting
+	The arrangement of records into some sequential order according to an ordering criterion
+
+~ Use of sorting
+	- data in a sorted order is required
+	- perform binary search or indexing a database
+	- initialization step of many algorithms
+	- Basically to make searching easier
+
+~ Advantages of sorting
+	- optimized searching
+	- easy to read data
+	- Processing data can be performed in a defined order
+
+~ Type of sorts
+	> Internal sort
+		- Data is small enough to fit memory
+		- Modifying order within the sequence
+		- Eg: Insertion, Bubble, Quick sort
+	
+	> External sort
+		- Data is too big for memory
+		- Eg: Merge sort
+
+~ Summary of sorting methods
+	> Properties play an important role in determining speed of sort
+		- number, size, distribution, and orderness
+		- Amount of memory
+
+	> When N is larger
+		- Insertion faster than bubble
+		- Quick is fastest

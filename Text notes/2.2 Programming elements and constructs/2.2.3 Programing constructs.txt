@@ -1,0 +1,16 @@
+2.2.3 Apply the fundamental programming constructs to control the flow of program execution:
+	– Sequence
+	– Selection
+	– Iteration 
+
+~ Sequence
+	- Straight forward instruction one after another
+
+~ Selection
+	- Presentation of a condition
+	- Invokes an action out of other actions depending if the condition is True or False
+	- IF-ELSE statements
+
+~ iteration
+	- Presentaion of a set of instructions to be repeated as long as a condition is True
+	- DOWHILE, REPEAT_UNTIL, FORLOOP

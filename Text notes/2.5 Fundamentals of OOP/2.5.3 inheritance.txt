@@ -1,0 +1,12 @@
+2.5.3 Understand inheritance and how it promotes software reuse.
+
+~ inheritance
+	- One class inherits the data and behaviour from a parent class
+	- A 'child' class is referred to as a subclass
+	- A 'Parent' class is referred to as superclass
+	- A hierachy relationship exists betwen classes (sub and superclass, base class and derived class)
+	- Eg: Superclass-attribute A, subclass1-attribute B, subclass-attribute C
+	      object1(subclass1)-attributes AB, Object2(subclass2)-attributes AC
+	- Use 'is a' rule to check if subclass is from a super class (is a father a male?)
+
+	- It is use to create a class by using existing class, which means one does not have to write an entire new class

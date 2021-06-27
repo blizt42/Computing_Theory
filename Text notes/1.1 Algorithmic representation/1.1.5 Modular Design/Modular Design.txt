@@ -1,0 +1,9 @@
+~ What is a Module?
+	- A section of an algorithm dedicated to performing a single function
+	- It must be large enough to perform its task and only include operations which contribute to performing the task
+
+~ Why use a module?
+	- More simple and systmatic
+	- free of errors/ can find the errors easily
+
+
