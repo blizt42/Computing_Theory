@@ -1,0 +1,58 @@
+4.1.5 Explain client-server architecture. 
+
+~ Client-Server network
+	- one or more computers, known as clients are connected to a powerful central server know as the server
+
+~ File server
+	- Holds and manages data for all the clients
+
+~ Print server
+	- Prints request
+
+~ Web server
+	- Manages requests to access the Web
+
+~ Mail server
+	- Manages the email system
+
+~ Database server
+	- Manages DB applications
+
+~ Advantages of Client-server
+	- Better sercurity ( All files stored there, access right managed by server )
+	- Backsup done Centrally ( No need for indivdual users to backup )
+	- Data and other resources can be shared
+	- Easy to replace, upgrade or relocate clients as they do not affect other clients and the server ( independent)
+
+~ Disadvantages of Client-Server
+	- Expensive to install and maintain
+	- Server overload if all clients simultaneously request data from server
+	- Server fails, all clients cannot request data
+
+~ Cloud computing
+	- A service-based industry which provides access to software or files via the internet
+	- Software as a service (SaaS)
+	- Eg: Google drive, dropbox
+
+~ Data Processing
+	-client send request, server should respond with the data requested or a suitable message otherwise
+
+~ Client-side processing
+	- Software on the client can process the information
+	- Lighten the load of the server's processor
+	- improved sercurity ( Avoids unneccessary data transfer )
+	- Eg: JavaScript used for interactivity in the webpage
+
+~ Server-side processing
+	- Faster processing than client
+	- Specfic languages like SQL
+	- client's JS may fail so validation on server side is important
+
+~ Differences between server and client processing
+	- client is front end processing
+	- server is back end processing
+
+~ Thin vs thick client computing
+	- The more the processing is done by server, the lesser the client has to process
+	- vice versa
+	- Thinnest client processing = Dumb terminal

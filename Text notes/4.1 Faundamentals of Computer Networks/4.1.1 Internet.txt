@@ -3,3 +3,60 @@
 ~ internet
 	- a network of networks set up to allow communication between computers globally
 	- Uses backbone cables connected by trans-continental leased lines fed across the sea bed
+
+~ Uniform resource locators (URLs)
+	- http://www.domainname.com/folder/subfolder/webpage.html#element
+	Where
+		http:// = Protocol for accessing resources
+		www.domain.name = domain name
+		folder/subfolder = path to resource
+		webpage.html = filename with any extension required
+		#element = Fragment, a portion or the document being displayed
+
+
+~ Internet registrars
+	- Holds all records of exisiting website names and those available to purchase
+
+~ Interent registries
+	- Hold records of all domains currently issued to individuals and companies
+	- A group of 5 global orgs governed by ICANN
+
+~ Local Area Network (LAN)
+	- Computer systems are situated relatively close to each other
+	- Network connections are normally wire cables, wireless links or fibre optic cable
+	- Transmit data fast but only over a short distance
+	- Usually serves a single organisation
+
+~ Types of LAN (Network topologies)
+	> Physical bus
+		- connect all computers with one cable	
+		- If one station fails, the rest wont work
+	
+	> Physical star
+		- connect all computers to a central node, aka a switch
+		- if one station fails, the others will still work 
+		- More expensive than bus as require more cable
+
+	> Ring
+		- connect all comupters in a loop
+
+	> Mesh Network
+		- connect all computer wirelessly
+		- More nodes, faster
+
+~ Wide Area Network (WAN)
+	- Dependent on telecoms provider
+	- Computer systems are situated geographically remote (not close to each other)
+	- Makes use of connection methods ( Telephone links, undersea cables, communication satelites )
+	- Usually expensive and speed is limited
+	- Links multiple LAN in a geographically spreaded areas, usually for MNCs
+
+~ Intranet
+	- Acts like the internet but only communicates solely within a particular company/ org
+	- For sercurity , it is only available to users connnected to the company's network or by VPN
+
+~ Virtual Private Network
+	- A secure, point to point connection from a device to a network over the internet
+	- Creates encrypted channels to allow safe transmission of sensitive data
+
+	

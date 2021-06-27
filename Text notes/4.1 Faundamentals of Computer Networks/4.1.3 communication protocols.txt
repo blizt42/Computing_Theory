@@ -1,0 +1,46 @@
+4.1.3 Explain the need for communication protocols in a network. 
+
+~ TCP/IP model (communication protocol)
+	- Ensure the proper transfer of data between devices on networks
+	- A protocol specifies the format of data, the signal to start, control and end the transfer
+	- Eg: HTTP
+	
+	- Enables connection with any other computer connected to the internet regardless of its location
+	- It tells how the signals are sent and provides transport and routing for the data over the network
+
+	- Work as 4 connected layers, passing incoming and outcoming data up and down the layers
+	- Each layer has varies protocol with different roles
+	- Acts like delivering a parcel
+
+~ Application layer ( Layer 1, Top )
+	- Uses protocols relating to the application being used to transmit data over a network usually the internet
+	- Eg: internet browser, will choose a suitable protocol, HTTP(for webpages), POP3(email) or FTP(file transfer)
+
+~ Transport Layer ( Layer 2 )
+	- Uses TCP to establish an end to end reliable connection with the recipient computer
+	- Data is split into packets, labelled with packetnumber, total no. of packets and port number
+	- Eg: HTTP protocol uses port 80
+	
+	- Any lost packets will be requested again for a retransmission by this layer
+
+	- User datagram Protocol(UDP) is another protocol used here
+	- It is the simplest communication protocol in this layer
+	- Transfers packets smaller then TCP
+	- Unreliable as recipent does not acknowledge and sender does not wait
+	- Used in video streaming as packet loss does not have a big impact on video quality
+
+~ Network Layer ( Layer 3 ) aka Internet layer
+	- Adds the source and destination IP addresses to the packets
+	- Routers operate in this layer
+
+~ Link Layer ( Layer 4 )
+	- The physical connection between network nodes
+	- Uses MAC address to identify NICs of the source and destination computers
+	- Adds the MAC address to the packets
+	
+	- After reaching the receiver end
+	- Each layer unwraps the packet
+	- If a layer adds something, it must also remove that thing
+
+
+ 

@@ -1,0 +1,32 @@
+4.1.2 Understand the concepts of IP addressing and domain name server (DNS). 
+
+~ Internet Protocol Address (IP address)
+	- A unique address that is assigned to a network device
+	- Acts like a home mailing address
+	- Ipv4 has a size of 32 bits while Ipv6 has 128 bits
+
+	- IPv4 originally allocated address based on 5 classes of networks, 3 of which are commonly used
+	- Class are created in way that
+		The higher the starting class identifier (in bits)
+		The Higher the number of bits for netID
+		The lower the number of bits for hostID
+	- Insufficient hostID --> classless inter-domain routing (CIDR) was created which varies netID and hostID
+
+~ Domain name
+	- Identifies the location or site of a resource in the internet
+	- Each location has a unique domain name
+	- Register domains are stored in a large public accessible DB known as DNS
+	
+	- Domain names are structured into a hierachy of smaller domains
+	- These smaller domains are written as string separated by full stops
+	- Eg: domain.sg | domain.gov | domain.my       <-- top level domain
+	      yahoo.com | google.com | moe.com		<-- 2 level domain
+	      www.google.com | docs.google.com | mail.google.com  <-- 3 level domain
+
+	- Computer --> local DNS --> larger DNS
+
+	- computers connected to the internet at all times are given IP Address (static)
+	- computers connected to the internet through an ISP are given dynamic IP address which changes for every login
+
+	- fully qualified domain includes the host server name
+	- Eg: www.google.com | docs.google.com

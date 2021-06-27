@@ -1,0 +1,15 @@
+4.1.4 Explain how data is transmitted in a packet-switching network. 
+
+~ Packet switching
+	- Data to be transmistted is broken down into small units known as packets that move in sequence through the network
+	- Each packets takes the best route available throughout the transfeer
+	- It assumes that the network is constantly changing and adjustments need to be made
+	  for network congestion or broken links
+	
+~ Connectionless service
+	- A packet is sent without knowledge if receiver is ready to accept it
+
+~ connection-oriented service
+	- first Packet sent includes a request for acknowledgement
+	- if no acknoledgement,  it tries again with the first packet
+	- if acknowledged, it sents the other packets
