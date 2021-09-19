@@ -15,7 +15,7 @@ Program flowchart
 
 
 1.1.3 Use a combination of various control structures. 
-1.1.4 Use decision tables to explore the actions for combinations of different input conditions. Note: up to three conditions 
+
 Control Structures
 > comments ( // )
 > variable declarations
