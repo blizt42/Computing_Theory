@@ -14,14 +14,52 @@
 	- Processing data can be performed in a defined order
 
 ~ Type of sorts
-	> Internal sort
+	> Internal sort (in place sort)
+		- Does not nee an extra space
 		- Data is small enough to fit memory
 		- Modifying order within the sequence
 		- Eg: Insertion, Bubble, Quick sort
 	
-	> External sort
+	> External sort (not in place sort)
+		- Sorted output not in the same memory that contains unsorted data
 		- Data is too big for memory
 		- Eg: Merge sort
+
+~ Bubble sort
+	> For each pass
+		- Begin by comparing the first pair of adjacent items (A, B)
+		- Swap that pair if they are out of place
+		- Repeat this 2 steps on the second pair of adjacent items (B, C) until every single item is compared
+		- Repeat until (n-1) passes 
+
+	> Note that after the first pass, the last item will be in the correct position
+
+	> The largest item will be bubbled to the last position in the array
+
+	> After n-1 passes, all n items will be in the correct position
+
+~ Insertion sort
+	> The ordering process will classify the sequece into a sorted and an unsorted list
+
+	> It begins by placing the first element into the sorted list as already sorted
+		-Eg:
+		Sorted : 2
+		unsorted : 1,5,3,4
+
+	> For every iteration, each element in the unsorted part will be compared sequentially item by item with every element in the sorted part until the correct position of the unsorted element is found
+	> The iteration continues until the whole list is sorted or the unsorted part becomes empty
+
+~ Quicksort
+	> An element is pick as a pivot and the array is partitioned around the pivot element until one sub-array with values smaller than the pivot element and one sub-array with values lrager than the pivot element is formed.
+	
+	> It then calls itself recursively twice to sort the 2 arrays
+
+~ Mergesort
+	> Puts data in order by splitting lists into a single element and then merging them back together
+
+	> It divides the unsorted list into 2 halves recursively until one element remains in each half
+
+	> It then recursively combines back the elements back to form the sorted sub-array list until the entire list gets sorted and merged completely
 
 ~ Summary of sorting methods
 	> Properties play an important role in determining speed of sort

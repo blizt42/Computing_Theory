@@ -1,0 +1,38 @@
+3.3.6 Understand how NoSQL database management system addresses the shortcomings of relational database management system (SQL). 
+
+~ How NoSQL address shortcomings of RDB
+	- RDB have a predefined schema that is difficult to change
+	- Processing of unstructured data using an RDB is difficult
+	- RDB Do not support hierarchical data storage where less frequently-used data is stored in cheaper, slower storage mediums
+
+	- RDB are mainly vertically scalable (costly)
+	- RDB are stored in a server, which makes the DB unavailable when the server fails
+
+	- NoSQL are mainly horizontally scalable (cheaper)
+	- NoSQL are designed to take advantage of multiple server so that if one fails, the others can continue to support applications
+
+~ Vertically scalable
+	- The performance of a RDB usually requires upgrading existing server with faster processors and more money
+	- These high-performance are usually expensive and upgrades are limited by the capacity of the single machine
+
+~ horizontally scalable
+	- The performance of a NoSQL DB can be improve simply by increasing the number of servers
+	- This is relatively cheaper as mass-produced average performance computers are easily available at low prices
+
+~ Differences between NoSQL and RDB
+	- RDB have fixed, predefined schema that its table follows
+	  NoSQL DB have no predefined schema, which is dynamic and can be changed easily
+
+	- RDB contains tables
+	  NoSQL DB contains collection (mongoDB)
+
+	- RDB represent data in tables and rows
+	  NoSQL Db store data as collections of documents
+
+	- RDB has joins to get data across tables
+	  NoSQL does not
+	  This means that its is easier to use RDB for complex queries rather than NoSQL
+
+
+
+	

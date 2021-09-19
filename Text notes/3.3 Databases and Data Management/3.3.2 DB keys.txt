@@ -2,6 +2,8 @@
 
 ~ Primary key
 	- #A primary key UNIQUELY IDENTIFIES each RECORD in a table and should not change over time.
+	- #A primary key cannot be a NULL value
+	- #A table can only consist of one primary key, and in the table, this primary key can consist of a single or multiple columns
 
 	- Each record needs to have a unique identifier, hence a field is chosen to be unique (primary key)
 	

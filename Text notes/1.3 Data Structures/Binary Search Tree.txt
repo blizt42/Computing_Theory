@@ -1,0 +1,6 @@
+~ Binary Search Tree
+	- A tree where each node contains a value from a well-ordered list
+
+	- On the left subtree, each node contains a value which is smaller than the value in the node above
+
+	- On the right subtree, each node contains a value which is larger than the value in the node above

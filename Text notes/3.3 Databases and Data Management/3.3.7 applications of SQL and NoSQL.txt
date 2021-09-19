@@ -1,0 +1,12 @@
+3.3.7 Explain the applications of SQL and NoSQL. 
+
+~ SQL Database should be used if:
+	- The data stored has a fixed schema
+	- Complex and varied queries are frequently performed
+	- when atomicity, consistency, isolation and durability (ACID) properties are critical to DB
+	- There will be high number of simultaneous transaction
+
+~ NoSQL Database should be used if:
+	- The data being stored has a dynamic schema
+	- Data storage needs to be performed quickly
+	- There will be an extremely large amount of data

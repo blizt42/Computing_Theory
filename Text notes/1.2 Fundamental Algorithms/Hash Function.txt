@@ -1,0 +1,7 @@
+~ Hashing
+	- A hash function uses the record key to calculate the suggested index address of an array of records for data storage and retrieval
+
+~ clustering
+	- Linear probing has the tendecy to create long runs of occupied slots from the hash position, referred to as a primary cluster
+
+	- The bigger the cluster, the more likely it grows, thus reducing the performance of the hash table

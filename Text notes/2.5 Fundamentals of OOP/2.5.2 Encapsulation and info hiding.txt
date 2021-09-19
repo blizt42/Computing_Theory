@@ -1,12 +1,14 @@
 2.5.2 Understand encapsulation and how classes support information hiding and implementation
 independence. 
 
-~ information hiding
+~ information hiding (Data hiding)
+	- Definition: Having processing of data within the object itself. This allows internal implementation of the object only to the application that uses it. Accessing or modifying the attributes to the class can only be done through the class's accessor methods
 	- As a general rule, instance variables are declared private and most methods public
 	- This means other class can use methods belonging to another class but are not allowed to access and modify its attributes
 	- Attributes must only be modified through its accessor or modifier methods
 
 ~ Encapsulation
+	- Definition: Is the combination of attributes and methods as a single object type
 	- Combining attributes and methods into a single object type
 	- Even if 2 objects are instantiated from the same class, the attributes and behaviours of one object cannot affect the way in which another object functions
 	- Eg: 2 bank accounts, A and B

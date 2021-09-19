@@ -2,6 +2,7 @@
 Exclude: method overloading and multiple inheritance
 
 ~ Polymorphism
+	- Definition: The ability for a parent class and classes to respond to the same method in different ways
 	- Refer's to a programming language's ability to process objects differently depending on the class
 	- Allows for different objects to respond to the same message in different ways
 	- Each response is specific to the type of object

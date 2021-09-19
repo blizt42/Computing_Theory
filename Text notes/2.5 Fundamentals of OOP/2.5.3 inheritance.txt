@@ -1,6 +1,7 @@
 2.5.3 Understand inheritance and how it promotes software reuse.
 
 ~ inheritance
+	- Definition: The ability for one class to acquire attributes or methods from a parent class or higher
 	- One class inherits the data and behaviour from a parent class
 	- A 'child' class is referred to as a subclass
 	- A 'Parent' class is referred to as superclass
