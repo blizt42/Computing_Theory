@@ -2,7 +2,7 @@
 
 ~ Validation
 	- The automatic checking of data entered into a computer system
-	- Checks if the data is sensible
+	- Checks if the data is sensible and matches in context to the specification/ requirements
 	- Captured data may not mean its the right data required (Cannot prove is data is right)
 	- It helps identify the obviously wrong inputs
 
